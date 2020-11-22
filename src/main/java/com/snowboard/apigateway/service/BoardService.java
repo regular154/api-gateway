@@ -7,13 +7,13 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class BoardService {
 
-//    private final RestTemplate restTemplate;
-//
-//    public BoardService(RestTemplate restTemplate) {
-//        this.restTemplate = restTemplate;
-//    }
-//
-//    public Object getBoardById(String id) {
-//        return new Object();
-//    }
+    private final RestTemplate restTemplate;
+
+    public BoardService(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
+
+    public Object getBoardById(String id) {
+        return new Object();
+    }
 }
